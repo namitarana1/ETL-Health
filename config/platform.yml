@@ -16,3 +16,17 @@ operations:
   orchestrator: apache_airflow
   target_success_rate: 0.98
   controls: [retries, sla, checkpointing, reconciliation, alerting]
+datasets:
+  processing_order:
+    - members
+    - providers
+    - eligibility
+    - medical_claims
+    - medical_claim_lines
+    - payments
+    - authorizations
+    - pharmacy_claims
+    - encounters
+  incremental_strategy: primary_key_row_hash
+  rejected_record_policy: quarantine_with_error_codes
+  audit_granularity: dataset_and_run

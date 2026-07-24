@@ -35,11 +35,36 @@ Production scale represented by this design: 1–2 TB/day, 20+ batch pipelines, 
 Requires Python 3.10+ and no third-party packages.
 
 ```powershell
-python -m src.pipeline --run-date 2026-07-24
+python -m src.pipeline --run-date 2026-07-24 --full-refresh
 python -m unittest discover -s tests -v
 ```
 
-Outputs are written to `data/lake/{bronze,silver,gold,rejected}`. Re-running the same input is idempotent; the watermark prevents older records from being processed again.
+Outputs are written to `data/lake/{bronze,silver,gold,rejected}`. Re-running the same input is idempotent; primary-key row hashes ensure only new or changed records are processed.
+
+### Pipeline commands
+
+```powershell
+# Initial load or complete rebuild
+python -m src.pipeline --run-date 2026-07-24 --full-refresh
+
+# Daily incremental run; unchanged rows are skipped
+python -m src.pipeline --run-date 2026-07-25
+
+# Restart or replay one dataset, then refresh gold outputs
+python -m src.pipeline --run-date 2026-07-25 --dataset medical_claims
+```
+
+The dependency order is members and providers first, followed by eligibility, claims, claim lines, payments, authorizations, pharmacy, and encounters. Foreign keys are checked against accepted silver records. Invalid records are written under `data/lake/rejected/<dataset>/` with stable error codes.
+
+Gold outputs include:
+
+- `provider_claim_kpis.jsonl`: approval/denial rates and financial totals by provider
+- `member_utilization.jsonl`: medical, encounter, pharmacy, and paid-amount measures
+- `plan_performance.jsonl`: enrollment, claim volume, and paid amount by plan
+- `authorization_metrics.jsonl`: decision volume and average turnaround
+- `financial_reconciliation.jsonl`: claim/payment counts, totals, variance, and match count
+
+Every execution writes a run manifest under `data/lake/_audit/`; row-level watermarks are maintained under `data/lake/_control/`.
 
 ### Open the interactive demo
 
