@@ -1,0 +1,101 @@
+provider_id,npi,provider_name,specialty,network_status,state
+PRV000001,9000000001,Synthetic Care Center 1,Cardiology,IN_NETWORK,CA
+PRV000002,9000000002,Synthetic Care Center 2,Endocrinology,OUT_OF_NETWORK,WA
+PRV000003,9000000003,Synthetic Care Center 3,Orthopedics,IN_NETWORK,AZ
+PRV000004,9000000004,Synthetic Care Center 4,Radiology,IN_NETWORK,MN
+PRV000005,9000000005,Synthetic Care Center 5,Behavioral Health,OUT_OF_NETWORK,CO
+PRV000006,9000000006,Synthetic Care Center 6,Primary Care,OUT_OF_NETWORK,TX
+PRV000007,9000000007,Synthetic Care Center 7,Cardiology,IN_NETWORK,CO
+PRV000008,9000000008,Synthetic Care Center 8,Endocrinology,IN_NETWORK,FL
+PRV000009,9000000009,Synthetic Care Center 9,Orthopedics,IN_NETWORK,TX
+PRV000010,9000000010,Synthetic Care Center 10,Radiology,OUT_OF_NETWORK,MN
+PRV000011,9000000011,Synthetic Care Center 11,Behavioral Health,IN_NETWORK,FL
+PRV000012,9000000012,Synthetic Care Center 12,Primary Care,IN_NETWORK,NC
+PRV000013,9000000013,Synthetic Care Center 13,Cardiology,IN_NETWORK,CO
+PRV000014,9000000014,Synthetic Care Center 14,Endocrinology,IN_NETWORK,AZ
+PRV000015,9000000015,Synthetic Care Center 15,Orthopedics,IN_NETWORK,NY
+PRV000016,9000000016,Synthetic Care Center 16,Radiology,OUT_OF_NETWORK,IL
+PRV000017,9000000017,Synthetic Care Center 17,Behavioral Health,OUT_OF_NETWORK,NY
+PRV000018,9000000018,Synthetic Care Center 18,Primary Care,IN_NETWORK,WA
+PRV000019,9000000019,Synthetic Care Center 19,Cardiology,IN_NETWORK,TX
+PRV000020,9000000020,Synthetic Care Center 20,Endocrinology,IN_NETWORK,MN
+PRV000021,9000000021,Synthetic Care Center 21,Orthopedics,OUT_OF_NETWORK,NY
+PRV000022,9000000022,Synthetic Care Center 22,Radiology,IN_NETWORK,WA
+PRV000023,9000000023,Synthetic Care Center 23,Behavioral Health,OUT_OF_NETWORK,CO
+PRV000024,9000000024,Synthetic Care Center 24,Primary Care,IN_NETWORK,TX
+PRV000025,9000000025,Synthetic Care Center 25,Cardiology,IN_NETWORK,NY
+PRV000026,9000000026,Synthetic Care Center 26,Endocrinology,IN_NETWORK,IL
+PRV000027,9000000027,Synthetic Care Center 27,Orthopedics,OUT_OF_NETWORK,MN
+PRV000028,9000000028,Synthetic Care Center 28,Radiology,IN_NETWORK,AZ
+PRV000029,9000000029,Synthetic Care Center 29,Behavioral Health,OUT_OF_NETWORK,TX
+PRV000030,9000000030,Synthetic Care Center 30,Primary Care,IN_NETWORK,CO
+PRV000031,9000000031,Synthetic Care Center 31,Cardiology,IN_NETWORK,WA
+PRV000032,9000000032,Synthetic Care Center 32,Endocrinology,IN_NETWORK,WA
+PRV000033,9000000033,Synthetic Care Center 33,Orthopedics,IN_NETWORK,MN
+PRV000034,9000000034,Synthetic Care Center 34,Radiology,OUT_OF_NETWORK,CA
+PRV000035,9000000035,Synthetic Care Center 35,Behavioral Health,OUT_OF_NETWORK,TX
+PRV000036,9000000036,Synthetic Care Center 36,Primary Care,IN_NETWORK,FL
+PRV000037,9000000037,Synthetic Care Center 37,Cardiology,OUT_OF_NETWORK,NY
+PRV000038,9000000038,Synthetic Care Center 38,Endocrinology,OUT_OF_NETWORK,CO
+PRV000039,9000000039,Synthetic Care Center 39,Orthopedics,OUT_OF_NETWORK,IL
+PRV000040,9000000040,Synthetic Care Center 40,Radiology,IN_NETWORK,NC
+PRV000041,9000000041,Synthetic Care Center 41,Behavioral Health,OUT_OF_NETWORK,MN
+PRV000042,9000000042,Synthetic Care Center 42,Primary Care,IN_NETWORK,CA
+PRV000043,9000000043,Synthetic Care Center 43,Cardiology,OUT_OF_NETWORK,CA
+PRV000044,9000000044,Synthetic Care Center 44,Endocrinology,IN_NETWORK,CO
+PRV000045,9000000045,Synthetic Care Center 45,Orthopedics,IN_NETWORK,AZ
+PRV000046,9000000046,Synthetic Care Center 46,Radiology,IN_NETWORK,CA
+PRV000047,9000000047,Synthetic Care Center 47,Behavioral Health,IN_NETWORK,FL
+PRV000048,9000000048,Synthetic Care Center 48,Primary Care,IN_NETWORK,AZ
+PRV000049,9000000049,Synthetic Care Center 49,Cardiology,OUT_OF_NETWORK,NC
+PRV000050,9000000050,Synthetic Care Center 50,Endocrinology,OUT_OF_NETWORK,NY
+PRV000051,9000000051,Synthetic Care Center 51,Orthopedics,OUT_OF_NETWORK,WA
+PRV000052,9000000052,Synthetic Care Center 52,Radiology,OUT_OF_NETWORK,WA
+PRV000053,9000000053,Synthetic Care Center 53,Behavioral Health,IN_NETWORK,AZ
+PRV000054,9000000054,Synthetic Care Center 54,Primary Care,IN_NETWORK,FL
+PRV000055,9000000055,Synthetic Care Center 55,Cardiology,OUT_OF_NETWORK,CA
+PRV000056,9000000056,Synthetic Care Center 56,Endocrinology,IN_NETWORK,FL
+PRV000057,9000000057,Synthetic Care Center 57,Orthopedics,OUT_OF_NETWORK,NY
+PRV000058,9000000058,Synthetic Care Center 58,Radiology,IN_NETWORK,NY
+PRV000059,9000000059,Synthetic Care Center 59,Behavioral Health,OUT_OF_NETWORK,AZ
+PRV000060,9000000060,Synthetic Care Center 60,Primary Care,IN_NETWORK,TX
+PRV000061,9000000061,Synthetic Care Center 61,Cardiology,OUT_OF_NETWORK,NC
+PRV000062,9000000062,Synthetic Care Center 62,Endocrinology,IN_NETWORK,AZ
+PRV000063,9000000063,Synthetic Care Center 63,Orthopedics,OUT_OF_NETWORK,IL
+PRV000064,9000000064,Synthetic Care Center 64,Radiology,OUT_OF_NETWORK,AZ
+PRV000065,9000000065,Synthetic Care Center 65,Behavioral Health,OUT_OF_NETWORK,CA
+PRV000066,9000000066,Synthetic Care Center 66,Primary Care,IN_NETWORK,CA
+PRV000067,9000000067,Synthetic Care Center 67,Cardiology,IN_NETWORK,TX
+PRV000068,9000000068,Synthetic Care Center 68,Endocrinology,IN_NETWORK,CA
+PRV000069,9000000069,Synthetic Care Center 69,Orthopedics,OUT_OF_NETWORK,FL
+PRV000070,9000000070,Synthetic Care Center 70,Radiology,OUT_OF_NETWORK,NC
+PRV000071,9000000071,Synthetic Care Center 71,Behavioral Health,IN_NETWORK,FL
+PRV000072,9000000072,Synthetic Care Center 72,Primary Care,OUT_OF_NETWORK,FL
+PRV000073,9000000073,Synthetic Care Center 73,Cardiology,OUT_OF_NETWORK,CO
+PRV000074,9000000074,Synthetic Care Center 74,Endocrinology,OUT_OF_NETWORK,TX
+PRV000075,9000000075,Synthetic Care Center 75,Orthopedics,IN_NETWORK,CA
+PRV000076,9000000076,Synthetic Care Center 76,Radiology,OUT_OF_NETWORK,WA
+PRV000077,9000000077,Synthetic Care Center 77,Behavioral Health,IN_NETWORK,NY
+PRV000078,9000000078,Synthetic Care Center 78,Primary Care,OUT_OF_NETWORK,NC
+PRV000079,9000000079,Synthetic Care Center 79,Cardiology,IN_NETWORK,CO
+PRV000080,9000000080,Synthetic Care Center 80,Endocrinology,IN_NETWORK,TX
+PRV000081,9000000081,Synthetic Care Center 81,Orthopedics,IN_NETWORK,TX
+PRV000082,9000000082,Synthetic Care Center 82,Radiology,IN_NETWORK,CO
+PRV000083,9000000083,Synthetic Care Center 83,Behavioral Health,OUT_OF_NETWORK,WA
+PRV000084,9000000084,Synthetic Care Center 84,Primary Care,IN_NETWORK,MN
+PRV000085,9000000085,Synthetic Care Center 85,Cardiology,IN_NETWORK,TX
+PRV000086,9000000086,Synthetic Care Center 86,Endocrinology,IN_NETWORK,MN
+PRV000087,9000000087,Synthetic Care Center 87,Orthopedics,IN_NETWORK,NC
+PRV000088,9000000088,Synthetic Care Center 88,Radiology,OUT_OF_NETWORK,MN
+PRV000089,9000000089,Synthetic Care Center 89,Behavioral Health,OUT_OF_NETWORK,FL
+PRV000090,9000000090,Synthetic Care Center 90,Primary Care,OUT_OF_NETWORK,TX
+PRV000091,9000000091,Synthetic Care Center 91,Cardiology,IN_NETWORK,NC
+PRV000092,9000000092,Synthetic Care Center 92,Endocrinology,OUT_OF_NETWORK,IL
+PRV000093,9000000093,Synthetic Care Center 93,Orthopedics,IN_NETWORK,NY
+PRV000094,9000000094,Synthetic Care Center 94,Radiology,IN_NETWORK,NC
+PRV000095,9000000095,Synthetic Care Center 95,Behavioral Health,IN_NETWORK,AZ
+PRV000096,9000000096,Synthetic Care Center 96,Primary Care,IN_NETWORK,WA
+PRV000097,9000000097,Synthetic Care Center 97,Cardiology,IN_NETWORK,TX
+PRV000098,9000000098,Synthetic Care Center 98,Endocrinology,IN_NETWORK,IL
+PRV000099,9000000099,Synthetic Care Center 99,Orthopedics,IN_NETWORK,IL
+PRV000100,9000000100,Synthetic Care Center 100,Radiology,IN_NETWORK,FL

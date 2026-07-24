@@ -1,0 +1,18 @@
+platform:
+  daily_volume_tb: "1-2"
+  batch_pipeline_count: 20
+  events_per_day: 1000000
+  target_stream_latency_minutes: 10
+  historical_lake_tb: 100
+  layers: [bronze, silver, gold]
+ingestion:
+  batch: [azure_data_factory, aws_glue]
+  streaming: [kafka, azure_event_hubs]
+  source_types: [relational_database, rest_api, sftp, azure_blob, amazon_s3]
+serving:
+  warehouse: snowflake
+  consumers: [power_bi, tableau, downstream_reports]
+operations:
+  orchestrator: apache_airflow
+  target_success_rate: 0.98
+  controls: [retries, sla, checkpointing, reconciliation, alerting]

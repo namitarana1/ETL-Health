@@ -1,0 +1,4 @@
+{"claim_id":"CLM-1001","member_id":"MBR-001","provider_id":"PRV-101","service_date":"2026-07-01","allowed_amount":"125.00","paid_amount":"100.00","status":"APPROVED","updated_at":"2026-07-22T08:00:00Z"}
+{"claim_id":"CLM-1002","member_id":"MBR-002","provider_id":"PRV-101","service_date":"2026-07-02","allowed_amount":"80.00","paid_amount":"0.00","status":"DENIED","updated_at":"2026-07-22T08:05:00Z"}
+{"claim_id":"CLM-1002","member_id":"MBR-002","provider_id":"PRV-101","service_date":"2026-07-02","allowed_amount":"80.00","paid_amount":"60.00","status":"APPROVED","updated_at":"2026-07-22T09:05:00Z"}
+{"claim_id":"CLM-1003","member_id":"","provider_id":"PRV-202","service_date":"2026-07-03","allowed_amount":"50.00","paid_amount":"70.00","status":"APPROVED","updated_at":"2026-07-22T09:10:00Z"}

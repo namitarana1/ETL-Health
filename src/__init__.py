@@ -1,0 +1,1 @@
+"""Healthcare lakehouse reference implementation."""
